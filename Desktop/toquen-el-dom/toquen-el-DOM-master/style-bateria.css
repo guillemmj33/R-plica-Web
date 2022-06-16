@@ -1,0 +1,254 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: gray;
+    overflow: hidden;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137_960_720.jpg");
+    background-size: cover;
+
+}
+
+.btn_exit {
+    position: absolute;
+    width: 144px;
+    height: 49px;
+    left: 627px;
+    top: 620px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+
+    color: #F4F4F4;
+    background: #4F4F4F;;
+    border-radius: 17px;
+}
+
+.btn_exit:hover {
+    color: black;
+    background-color: #F4F4F4;
+    transition: all 0.8s ease 0s;
+	border: none;
+}
+
+.kick, .snare, .hihat, .tom-1, 
+.tom-2, .tom-3, .crash-1, .crash-2, 
+.ride {
+    background-color: transparent;
+    border-radius: 100px;
+    border: none;
+    /* color: black; */
+    margin: 1rem;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    text-indent: -9999px;   
+    cursor: pointer;     
+}
+
+.kick {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 620px;
+    top: 343px;
+}
+
+.snare {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 490px;
+    top: 375px;
+
+}
+.hihat {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 360px;
+    top: 300px;
+}
+.tom-1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 540px;
+    top: 220px;
+
+}
+.tom-2 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 710px;
+    top: 230px;
+}
+.tom-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 820px;
+    top: 370px;
+
+}
+.crash-1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 420px;
+    top: 165px;
+}
+.crash-2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 845px;
+    top: 135px;
+}
+.ride {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 947px;
+    top: 305px;
+}
+.menus{
+    display:flex;
+    justify-content:space-between;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+p, h2{
+    padding: 10px;
+    margin-top: -10px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+#boton-cerrar{
+    color:white;
+}
+/*segundo menú*/
+
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+
+.sidenav2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav2 a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav2 .closebtn2 {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav2 {padding-top: 15px;}
+    .sidenav2 a {font-size: 18px;}
+}
+
+p,h2{
+    padding:20px;
+    font-weight: 600;
+    color:white;
+text-align:center;
+}
+
+#boton-cerrar2{
+    color:white;
+}
+
+
+
+.imgbateria{
+    margin: 5%;
+    margin-left: 320px;
+    height: 500px;
+    width: 800px;
+    text-align: center;
+}
+
+
+
+/*alineacion-----de----los-----botones----BATERIA*/
+
+.bateria {
+    width:100px;
+    height:100px;
+    background-color:black;
+    margin:10px;
+    border-radius:200px;
+    position:absolute;
+    opacity:0.2;
+}
+.a {
+    margin-top: 190px;
+    width:140px;
+    height:140px;
+    margin-left:300px;
+}

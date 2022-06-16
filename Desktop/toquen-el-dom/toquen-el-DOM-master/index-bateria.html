@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toquen el DOM</title>
+    <link rel="stylesheet" href="style-bateria.css">
+
+</head>
+    <body>
+        <container class="menus">
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn cerrar" onclick="closeNav()">&times;</a>
+								<h2>CONTROLS</h2>
+								<p>Kick: A | Snare: S | Hihat: D | Tom 1: Q | Tom 2: W | Tom 3: E | Crash 1: R | Crash 2: T | Ride: F</p>
+                <h2> BEATS</h2>
+                <P>Beat 1:<br>K + A + S + A + S</P>
+                <P>Beat 2:<br>K + A + S + A + S</P>
+                <P>Beat 3:<br>K + A + S + A + S</P>
+                <P>Beat invocar al bibliotecario:<br>K + A + S + A + S</P>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="boton-cerrar"> >></span>
+            
+            <div id="mySidenav2" class="sidenav2">
+                <a href="javascript:void(0)" class="closebtn2 cerrar" onclick="closeNav2()">&times;</a>
+                <h2><b>Tutorials</b></h2> 
+                <div class="contenedor--videos">
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                    <iframe width="220" height="185" src="https://www.youtube.com/embed/HqQT28ro4q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="decoration-videos"></iframe>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav2()" id="boton-cerrar2"><<</span>
+
+        </container>
+
+        <button id="kick" class="kick" onclick="audio_1.play()">kick</button>
+        <button id="snare" class="snare" onclick="audio_2.play()">snare</button>
+        <button id="hihat" class="hihat" onclick="audio_3.play()">hihat</button>
+        <button id="tom-1" class="tom-1" onclick="audio_4.play()">tom1</button>
+        <button id="tom-2" class="tom-2" onclick="audio_5.play()">tom2</button>
+        <button id="tom-3" class="tom-3" onclick="audio_6.play()">tom3</button>
+        <button id="crash-1" class="crash-1" onclick="audio_7.play()">crash</button>
+        <button id="crash-2" class="crash-2" onclick="audio_8.play()">crash2</button>
+        <button id="ride" class="ride" onclick="audio_9.play()">ride</button>
+
+				<div id="buttons"></div>
+
+        <img src="/images/imgbateria.png" class="imgbateria">
+				<a href="index.html"><button class="btn_exit">Exit</button></a>
+
+        <script src="bateria.js"></script>
+    </body>
+</html> 
+        
